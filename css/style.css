@@ -1,0 +1,124 @@
+@charset "utf-8";
+body,div,p,ul,ol,li,input,h2,h3,h4,h5{margin: 0;padding: 0;}
+body,button, input, select, textarea { font:12px/1.125 Arial,Helvetica,sans-serif;color:#666666;}
+address, cite, dfn, em, var ,i,h2{ font-style: normal; font-weight:normal}
+ul, ol,li{ list-style: none; }
+a { text-decoration: none; cursor:pointer; }
+a:hover {color:#ff6600; text-decoration: underline; cursor:pointer}
+html { overflow-y: scroll; }
+img{display:block;border:none;}
+.clear{height:0;clear:both;overflow:hidden; }
+body{ background:url(notfound) fixed; }
+
+/*head*/
+.head{ width:100%; background:url(../images/head_bg.jpg) no-repeat top;}
+.head img{ display:block; margin:0 auto;}
+.txt{ width:100%; background:url(../images/txt.jpg) no-repeat top; }
+.txt_cont{ width:999px; height:275px; margin:0 auto; position:relative;}
+.txt h3{ display:block; width:999px;  position:absolute; left:60px; top:65px; font:14px/24px "微软雅黑"; color:#242424;}
+/*inner*/
+.inner{ width:100%;}
+.bg01{ background:url(../images/bg01.jpg) no-repeat top; position:relative; height:489px;}
+.bg02{ background:url(../images/bg02.jpg) no-repeat top; position:relative; height:651px;}
+.bg03{ background:url(../images/bg03.jpg) no-repeat top; position:relative; height:846px;}
+.main{ width:999px; margin:0 auto; position:relative;}
+.bg01 h4{ display:block; width:450px; height:117px; position:absolute; right:260px; top:18px; font:12px/21px "宋体"; color:#ff7200;}
+.bg02 h4{ display:block; width:450px; height:117px; position:absolute; right:260px; top:100px; font:12px/21px "宋体"; color:#ff7200;}
+.bg03 h4{ display:block; width:450px; height:117px; position:absolute; right:260px; top:70px; font:12px/21px "宋体"; color:#ff7200;}
+.box{ position:absolute;}
+.box01{ left:5px; top:150px; width:268px; height:265px;  z-index:10;}
+.box .box_img{ border:5px solid #FFF; margin-bottom:3px; 
+	-webkit-transition: background .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+	   -moz-transition: background .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+	    -ms-transition: background .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+	     -o-transition: background .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+	        transition: background .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+			
+			}
+.box .box_title{-webkit-transition: background .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+	   -moz-transition: background .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+	    -ms-transition: background .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+	     -o-transition: background .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+	        transition: background .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;}
+.box .box_img:hover{ border:5px solid #61bcb3;
+	-moz-box-shadow:4px 2px 7px #333333; -webkit-box-shadow:4px 2px 7px #333333; box-shadow:4px 2px 7px #333333;
+}
+.box01 .box_img{ display:block; }
+.box01 .box_title{ display:block; width:170px; height:35px; background:url(../images/arrow.png) no-repeat left; font:bold 14px/17px "微软雅黑"; color:#434544; padding:0 0 0 30px;}
+
+.box .box_title:hover , .box .box_title.hover{color:#63bdb4;}
+.box01 .box_date{ display:block; font:12px/20px "微软雅黑"; color:#434544; margin:3px 0;}
+.box01 .box_pay{ float:left; font:12px/19px "微软雅黑"; color:#ff0000; margin:3px 0;}
+.box01 .box_pay em{ font: bold 19px/19px "Constantia"; color:#ff0000;}
+.box .box_btn{ float:left; margin:2px 0 0 15px;}
+
+.box02{ left:240px; top:200px; width:268px; height:255px; z-index:20;}
+.box02 .box_img{ display:block; }
+.box02 .box_title{ display:block; width:170px; height:25px; background:url(../images/arrow.png) 0 0 no-repeat; font: bold 14px/17px "微软雅黑"; color:#434544; padding:0 0 0 30px; }
+.box02 .box_date{ display:block; font:12px/20px "微软雅黑"; color:#434544; margin:3px 0;}
+.box02 .box_pay{ float:left; font:12px/19px "微软雅黑"; color:#ff0000; margin:3px 0;}
+.box02 .box_pay em{ font: bold 19px/19px "Constantia"; color:#ff0000; }
+
+
+.box03{ left:460px; top:160px; width:539px; height:177px; z-index:40;}
+.box03 .box_img{ float:left; }
+.box03 .box_title{ float:left; width:200px; height:25px; background:url(../images/arrow2.png) 0 0 no-repeat; font: bold 14px/17px "微软雅黑"; color:#434544; padding:0 0 0 30px;}
+.box03 .box_date{ float:left; font:12px/20px "微软雅黑"; color:#434544; margin:10px 0 3px 30px;}
+.box03 .box_pay{ float:left; font:12px/19px "微软雅黑"; color:#ff0000; margin:10px 0 3px 30px;}
+.box03 .box_pay em{ font: bold 19px/19px "Constantia"; color:#ff0000; }
+.box03 .box_btn{ float:left; margin-left:15px;}
+
+.box04{right:30px; top:280px; width:500px; height:177px; z-index:30;}
+.box04 .box_img{ float:right; }
+.box04 .box_title{ float:right; width:120px; height:25px; margin:70px 0 0 0 ; background:url(../images/arrow3.png) no-repeat right; font: bold 14px/25px "微软雅黑"; color:#434544; padding:0 18px 0 0px; }
+.box04 .box_date{ float:right; font:12px/20px "微软雅黑"; color:#434544; margin:10px 00px 3px 0px; *width:200px;}
+.box04 .box_pay{ float:right; font:12px/19px "微软雅黑"; color:#ff0000; margin:10px 00px 3px 0px;}
+.box04 .box_pay em{ font: bold 19px/19px "Constantia"; color:#ff0000; }
+.box04 .box_btn{ float:right; margin-right:30px;}
+
+.box05{left:30px; top:210px; width:223px; height:383px; z-index:30;}
+.box06{left:268px; top:210px; width:223px; height:383px; z-index:30;}
+.box07{left:506px; top:210px; width:223px; height:383px; z-index:30;}
+.box08{left:744px; top:210px; width:223px; height:383px; z-index:30;}
+.bg02 .box_img{ display:block; width:213px; }
+.bg02 .box_title{ display:block; width:188px; height:45px; margin:00px 0 0 0 ; background:url(../images/arrow.png) 0 2px no-repeat ; font: bold 14px/25px "微软雅黑"; color:#434544; padding:0 0px 0 25px; }
+.bg02 .box_date{ display:block; font:12px/20px "微软雅黑"; color:#434544; margin:5px 0px 3px 25px;}
+.bg02 .box_pay{ float:left; font:12px/19px "微软雅黑"; color:#ff0000; margin:5px 0px 3px 25px; _margin:5px 0px 3px 10px;}
+.bg02 .box_pay em{ font: bold 19px/19px "Constantia"; color:#ff0000; }
+
+.box09{left:20px; top:240px; width:600px; height:401px; z-index:30;}
+.box09 .box_img{ float:left; }
+.box09 .box_title{ float:left; width:150px; height:25px; margin:350px 0 0 0 ; background:url(../images/arrow2.png) no-repeat 5px 0; font: bold 14px/25px "微软雅黑"; color:#434544; padding:0 0px 0 35px; }
+.box09 .box_date{  float:left; font:12px/20px "微软雅黑"; color:#434544; margin:5px 00px 3px 35px; _width:162px;  }
+.box09 .box_pay{  float:left; font:12px/19px "微软雅黑"; color:#ff0000; margin:350px 00px 3px 35px; _margin:350px 00px 3px 17px;}
+.box09 .box_pay em{ font: bold 19px/19px "Constantia"; color:#ff0000; }
+.box09 .box_btn{  float:left;}
+
+.box10{left:300px; top:240px; width:210px; height:401px; z-index:40;}
+.box10 .box_img{ float:left; }
+.box10 .box_title{ float:left; width:160px; height:40px; margin:10px 0 0 0 ; background:url(../images/arrow.png) no-repeat 5px 0; font: bold 14px/25px "微软雅黑"; color:#434544; padding:0 0px 0 35px; }
+.box10 .box_date{  float:left; font:12px/20px "微软雅黑"; color:#434544; margin:10px 00px 3px 35px; _width:210px; _margin:15px 0px 3px 17px;}
+.box10 .box_pay{  float:left; font:12px/19px "微软雅黑"; color:#ff0000; margin:5px 00px 3px 35px;  _margin:5px 0px 3px 17px;}
+.box10 .box_pay em{ font: bold 19px/19px "Constantia"; color:#ff0000; }
+.box10 .box_btn{  float:left; 0}
+
+.box11{left:525px; top:240px; width:210px; height:401px; z-index:40;}
+.box11 .box_img{ float:left; }
+.box11 .box_title{ float:left; width:160px; height:40px; margin:10px 0 0 0 ; background:url(../images/arrow.png) no-repeat 5px 0; font: bold 14px/25px "微软雅黑"; color:#434544; padding:0 0px 0 35px; }
+.box11 .box_date{  float:left; font:12px/20px "微软雅黑"; color:#434544; margin:10px 00px 3px 35px; _width:210px; _margin:5px 0px 3px 17px;}
+.box11 .box_pay{  float:left; font:12px/19px "微软雅黑"; color:#ff0000; margin:5px 00px 3px 35px;  _margin:5px 0px 3px 17px;}
+.box11 .box_pay em{ font: bold 19px/19px "Constantia"; color:#ff0000; }
+.box11 .box_btn{  float:left; 0}
+
+.box12{left:750px; top:240px; width:210px; height:401px; z-index:40;}
+.box12 .box_img{ float:left; }
+.box12 .box_title{ float:left; width:160px; height:40px; margin:10px 0 0 0 ; background:url(../images/arrow.png) no-repeat 5px 0; font: bold 14px/25px "微软雅黑"; color:#434544; padding:0 0px 0 35px; }
+.box12 .box_date{  float:left; font:12px/20px "微软雅黑"; color:#434544; margin:10px 00px 3px 35px;  _width:210px; _margin:15px 0px 3px 17px;}
+.box12 .box_pay{  float:left; font:12px/19px "微软雅黑"; color:#ff0000; margin:5px 00px 3px 35px;  _margin:5px 0px 3px 17px;}
+.box12 .box_pay em{ font: bold 19px/19px "Constantia"; color:#ff0000; }
+.box12 .box_btn{  float:left; 0}
+
+
+
+
+
